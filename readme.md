@@ -1,4 +1,4 @@
-# 🚀 DevOps Toolkit
+# 🚀 DevOps Automation
 
 Bem-vindo ao repositório **Devops Automation**! Este projeto tem como objetivo reunir práticas, ferramentas e automações para implementar e gerenciar pipelines de DevOps de forma eficiente, segura e escalável.
 
@@ -8,13 +8,13 @@ Bem-vindo ao repositório **Devops Automation**! Este projeto tem como objetivo 
 
 Este repositório está organizado em diferentes diretórios para facilitar a navegação e compreensão:
 
-├── ci-cd/ # Exemplos de pipelines CI/CD (GitHub Actions, GitLab CI, etc.)
-├── infra-as-code/ # Infraestrutura como código (Terraform, Ansible,  etc.)
-├── monitoring/ # Monitoramento e observabilidade (Prometheus, Grafana, etc.)
-├── containers/ # Dockerfiles, Compose, Kubernetes, Helm, etc.
-├── scripts/ # Scripts utilitários (Shell, Python, etc.)
-├── docs/ # Documentação complementar
-└── README.md # Esta documentação
+ci-cd/ # Exemplos de pipelines CI/CD (GitHub Actions, GitLab CI, etc.)
+infra-as-code/ # Infraestrutura como código (Terraform, Ansible,  etc.)
+monitoring/ # Monitoramento e observabilidade (Prometheus, Grafana, etc.)
+containers/ # Dockerfiles, Compose, Kubernetes, Helm, etc.
+scripts/ # Scripts utilitários (Shell, Python, etc.)
+docs/ # Documentação complementar
+README.md # Esta documentação
 
 ---
 
