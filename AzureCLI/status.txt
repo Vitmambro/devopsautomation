@@ -1,2 +1,4 @@
+for vm in vm01 vm02; do   az vm get-instance-view     --resource-group devops-automation     --name $vm     --query "instanceView.statuses[?starts_with(code,'PowerState/')].displayStatus"     --output tsv >> status.txt;
+
 VM running
 VM running
