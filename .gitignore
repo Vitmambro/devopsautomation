@@ -1,0 +1,12 @@
+# Ignorar arquivos sensiveis e temporarios
+/docker/fastapi/node_modules
+/docker/fastapi/dist
+/docker/fastapi/*.logs
+/docker/fastapi/.env
+/docker/fastapi/.env*
+
+# Pycache, logs e arquivos temporarios
+**/__pycache__/
+**/*.pyc
+.DS_Store
+*.tgz
