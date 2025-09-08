@@ -1,2 +1,4 @@
+az vm list-ip-addresses --resource-group devops-automation   --query "[].virtualMachine.{name:name, ip:network.publicIpAddresses[0].ipAddress}"   -o json | jq -r '.[] | "\(.name) \(.ip)"' > vms-ips.txt
+
 vm01 172.185.10.50
 vm02 20.43.229.29
